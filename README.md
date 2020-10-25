@@ -22,17 +22,18 @@ Ensemble AdaBoost Classifier has high accuracy in predictions (avg 99%) as well 
 AdaBoost Classfier is better than Balanced Random Forest CLassifier
 
 Naive Random Oversampling
-
 balanced_accuracy_score= .66 prec=.01 rec=.74
+
 SMOTE:
-
 balanced_accuracy_score= .65 prec=.01 rec=.62
+
 Undersampling:
-
 balanced_accuracy_score= .64 prec=.01 rec=.62
-Combination Sampling:
 
+Combination Sampling:
 balanced_accuracy_score= .63 prec=.01 rec=.70
+
+
 Out of these models, Naive Random Oversampling is the one to recommend since it has the highest balanced accuracy score .66 compared to other models. It also has the highest recall rate of .74 which means that in loans of high risk very few of them would be predicted as low risk
 
 Out of all the models ran, Ensemble AdaBoost remains the better one for precision and recall as well as balanced accuracy (in the 90s) compared to the Naive Random Oversampling and others.
